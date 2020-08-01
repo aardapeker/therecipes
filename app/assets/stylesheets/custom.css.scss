@@ -1,0 +1,55 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  background-color: #F6F7F7;
+}
+
+#logo {
+  font-family: Yu Gothic UI Semibold;
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar {
+  border: none;
+  background-color: #135E96;
+  border-radius: 0px;
+}
+
+#white {
+  color: white!important;
+}
+
+.nav li:hover{
+  background-color: #0A4B78;
+}
+
+nav.navbar {
+  margin-bottom: 0px;
+}
+
+#myCarousel {
+  margin-bottom: 30px;
+}
+
+.dropdown .dropdown-toggle:focus {
+  background-color: #01263A!important;
+}
+
+.dropdown-menu a:hover {
+  background-color: #C5D9ED!important;
+}
+
+.nav {
+  color: white;
+}
+.active {
+  background-color: #01263A!important;
+}
+
+.marketing {
+  text-align: center;
+}
