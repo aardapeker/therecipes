@@ -5,6 +5,11 @@ body {
   background-color: #F6F7F7;
 }
 
+footer {
+  // padding-left: 9px;
+  // padding-right: 9px;
+}
+
 #logo {
   font-family: Yu Gothic UI Semibold;
   font-size: 1.7em;
@@ -74,4 +79,12 @@ nav.navbar {
 .chef-title {
   font-weight: bold;
   font-size: 1.20em;
+}
+
+span.badge a{
+  color: white;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
