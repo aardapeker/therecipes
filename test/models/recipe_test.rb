@@ -33,7 +33,7 @@ class RecipeTest < ActiveSupport::TestCase
   end
 
   test "description shouldn't be more than 500 characters" do
-    @recipe.description = "a" * 501
+    @recipe.description = "a" * 4001
     assert_not @recipe.valid?
   end
 end
