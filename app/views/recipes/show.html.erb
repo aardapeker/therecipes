@@ -58,7 +58,7 @@
   </div>
 <%  end %>
 
-<% if @recipe.comments != 0 %>
+<% if @recipe.comments.any? %>
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <h3>Prior Comments: </h3>
@@ -70,8 +70,9 @@
   </div>
 <% else %>
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2" align="center">
       <h3>No Comments Yet!</h3>
+      <br>
     </div>
   </div>
 <% end %>
