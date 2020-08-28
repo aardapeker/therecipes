@@ -3,6 +3,7 @@
 
 body {
   background-color: #F6F7F7;
+  overflow-x: hidden;
 }
 
 footer {
@@ -67,8 +68,9 @@ nav.navbar {
 
 }
 
-.chef_info {
-  margin-top: 10px;
+.chef-info {
+  margin-top: 0px;
+  margin-bottom: 10px
 }
 
 .listing {
@@ -97,4 +99,148 @@ section.chef-info {
   height: 300px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+// div.fix-container {
+//   margin-left: 20px;
+//   margin-right: 20px;
+// }
+
+
+.fix-container {
+
+  @media (max-width: 991px) {
+
+  div.asdasd {
+    margin-left: 30px!important;
+    margin-right: 30px!important;
+  }
+
+}
+}
+
+.fix-name {
+
+  @media (max-width: 991px) {
+
+    div {
+      text-align: center!important;
+      margin: auto;
+    }
+
+    .add-margin-bottom {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+.fix-name2 {
+  @media (min-width: 768px) and (max-width:991px){
+
+    div {
+      text-align: center!important;
+      margin-left: 90px;
+    }
+    .add-margin-bottom {
+      margin-bottom: 10px;
+    }
+
+}
+}
+
+.fix-avatar {
+  @media (max-width:991px){
+
+    section {
+      text-align: center;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+      section {
+        padding-left: 0px;
+      }
+    }
+  @media (min-width: 1201px) {
+    section {
+      padding-left: 30px;
+    }
+  }
+}
+
+.fix-name3 {
+  @media (max-width: 767px) {
+
+    div {
+      text-align: center!important;
+      margin-left: 20px;
+    }
+    .add-margin-bottom {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.fix-name4 {
+  @media (min-width: 992px) {
+
+    .margin-left {
+      margin-left: 170px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .add-margin-left{
+      margin-left: 250px;
+    }
+  }
+  @media(min-width: 1201px) {
+      .add-margin-left {
+        margin-left: 300px;
+      }
+    }
+
+  @media (max-width: 640px) {
+    .align-center {
+      text-align: center;
+    }
+  }
+}
+
+.fix-name6 {
+  @media (max-width: 640px) {
+    .align-center {
+      text-align: center;
+    }
+  }
+}
+
+.fix-color {
+  @media (max-width: 767px) {
+    .white {
+      color: white!important;
+    }
+
+    .hover-blue a:hover {
+      background-color: #C5D9ED;
+      color: #000000!important;
+    }
+    .divider {
+      background-color: white!important;
+    }
+  }
+}
+
+.fix-padding {
+  min-height: 0px;
+}
+.alert {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-image-style {
+  margin-top: 15px;
+}
+
+.liking {
+  padding-right: 10px;
 }
